@@ -3,7 +3,7 @@ version: 2
 jobs:
   unittest_backend:
     docker:
-      - image: circleci/python:3.8
+      - image: circleci/python:3.9.0b3
     parallelism: 2
     steps:
       - checkout
