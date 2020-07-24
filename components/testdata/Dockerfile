@@ -1,4 +1,4 @@
-FROM python:3.9.0b4-buster
+FROM python:3.9.0b5-buster
 
 LABEL maintainer="Frank Niessink <frank.niessink@ictu.nl>"
 LABEL description="Quality-time testdata"
