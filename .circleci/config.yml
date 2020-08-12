@@ -16,6 +16,7 @@ jobs:
           cd components/$component
           python -m venv venv
           . venv/bin/activate
+          pip install wheel
           pip install --progress-bar off -r requirements.txt -r requirements-dev.txt
           ci/unittest.sh
           ci/quality.sh
